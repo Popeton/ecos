@@ -1,0 +1,45 @@
+{
+    "name": "Trigger Input Actions 1",
+    "maps": [
+        {
+            "name": "TriggerPresss",
+            "id": "563effaf-77c2-466e-b125-d7a23e8937d7",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "c0a37e0f-dab0-4c9f-bd78-132d8c0c9928",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8b431ce3-a283-49c6-9e3f-017b41c6363c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15fed758-242a-4ef3-9bc8-836972f4e478",
+                    "path": "<MetaAimHand>{RightHand}/indexPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

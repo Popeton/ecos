@@ -1,0 +1,34 @@
+{
+    "name": "Menu Input Actions",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "563effaf-77c2-466e-b125-d7a23e8937d7",
+            "actions": [
+                {
+                    "name": "MenuPress",
+                    "type": "Button",
+                    "id": "c0a37e0f-dab0-4c9f-bd78-132d8c0c9928",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8b431ce3-a283-49c6-9e3f-017b41c6363c",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
